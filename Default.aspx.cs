@@ -11,6 +11,7 @@ public partial class _Default : System.Web.UI.Page
     
     protected void Page_Load(object sender, EventArgs e)
     {
+        //test
         var q = from p in db.TblKoordinats select p;
 
         string kod = " <div id='map' style='width: 640px; height: 480px;'></div>";
